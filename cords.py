@@ -105,7 +105,7 @@ for trace_file in trace_files:
 	assert os.stat(trace_file).st_size > 0
 	with open(trace_file, "r") as f:
 		for line in f:
-			line = line.split('\t')
+			line = line.split(' ')
 			if line[0] in ['rename', 'unlink', 'link', 'symlink']:
 				pass
 			else:
@@ -126,11 +126,11 @@ assert len(machines) > 0
 
 def get_error_modes(op):
 	if op == 'r':
-		return ["eio", "cz", "cg"]
+		return ["cg"] # return ["cg", "eio"]
 	elif op == 'w': 
-		return ["eio"]
+		return []
 	elif op == 'a': 
-		return ["eio", "esp"]
+		return []
 	else:
 		assert False
 
@@ -188,7 +188,7 @@ def cords_check():
 				for ddc in data_dir_curr:
 					workload_command_curr += " " + ddc + " "
 
-				workload_command_curr += log_dir_path + " "
+				#workload_command_curr += log_dir_path + " "
 
 				os.system("rm -rf " + log_dir_path)
 				os.system("mkdir -p " + log_dir_path)
@@ -196,6 +196,7 @@ def cords_check():
 				os.system("rm -rf /tmp/shoulderr")
 				os.system("touch /tmp/shoulderr; echo \'fals\' >> /tmp/shoulderr")
 
+				print workload_command_curr
 				(out, err) = invoke_cmd(workload_command_curr)
 				outfile = os.path.join(log_dir_path, 'workload.out')
 				os.system("rm -rf " + outfile)
@@ -220,6 +221,7 @@ def cords_check():
 
 				count += 1
 				print 'States completed:' + str(count) + '/' + str(total)
+				sys.exit(0)
 				#if count == 1:
 				#	return
 

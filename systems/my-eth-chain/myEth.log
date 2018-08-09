@@ -1,0 +1,234 @@
+INFO [08-09|14:46:48.670] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|14:46:48.673] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|14:46:48.673] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [08-09|14:46:48.753] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|14:46:48.753] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [08-09|14:46:48.753] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                          count=2
+INFO [08-09|14:46:48.753] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|14:46:48.754] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|14:46:48.754] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|14:46:48.754] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|14:46:48.755] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|14:46:48.755] Starting P2P networking 
+INFO [08-09|14:46:50.915] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|14:46:50.915] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|14:46:50.920] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth.ipc
+INFO [08-09|14:47:17.914] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|14:47:34.093] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth.ipc
+INFO [08-09|14:47:34.093] Blockchain manager stopped 
+INFO [08-09|14:47:34.093] Stopping Ethereum protocol 
+INFO [08-09|14:47:34.093] Ethereum protocol stopped 
+INFO [08-09|14:47:34.093] Transaction pool stopped 
+INFO [08-09|14:47:34.094] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth/chaindata
+INFO [08-09|14:47:38.931] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|14:47:38.935] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|14:47:38.935] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata cache=768 handles=512
+INFO [08-09|14:47:38.954] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|14:47:38.954] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/ethash count=3
+INFO [08-09|14:47:38.954] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                             count=2
+INFO [08-09|14:47:38.954] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|14:47:38.957] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|14:47:38.957] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|14:47:38.957] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|14:47:38.957] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|14:47:38.958] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|14:47:38.958] Starting P2P networking 
+INFO [08-09|14:47:41.079] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|14:47:41.079] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|14:47:41.082] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|14:47:41.187] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|14:47:51.059] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|14:47:51.059] Blockchain manager stopped 
+INFO [08-09|14:47:51.059] Stopping Ethereum protocol 
+INFO [08-09|14:47:51.059] Ethereum protocol stopped 
+INFO [08-09|14:47:51.059] Transaction pool stopped 
+INFO [08-09|14:47:51.059] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata
+INFO [08-09|15:18:38.635] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|15:18:38.638] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|15:18:38.638] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata cache=768 handles=512
+INFO [08-09|15:18:38.654] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|15:18:38.654] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/ethash count=3
+INFO [08-09|15:18:38.654] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                             count=2
+INFO [08-09|15:18:38.654] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|15:18:38.657] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:18:38.657] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:18:38.657] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:18:38.658] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|15:18:38.658] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|15:18:38.659] Starting P2P networking 
+INFO [08-09|15:18:40.777] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:18:40.777] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:18:40.781] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:18:40.885] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|15:19:14.067] Got interrupt, shutting down... 
+INFO [08-09|15:19:14.067] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:19:14.067] Blockchain manager stopped 
+INFO [08-09|15:19:14.067] Stopping Ethereum protocol 
+INFO [08-09|15:19:14.067] Ethereum protocol stopped 
+INFO [08-09|15:19:14.067] Transaction pool stopped 
+INFO [08-09|15:19:14.068] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata
+INFO [08-09|15:21:09.985] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|15:21:09.988] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|15:21:09.988] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata cache=768 handles=512
+INFO [08-09|15:21:10.003] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|15:21:10.004] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/ethash count=3
+INFO [08-09|15:21:10.004] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                             count=2
+INFO [08-09|15:21:10.004] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|15:21:10.006] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:21:10.006] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:21:10.006] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:21:10.006] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|15:21:10.006] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|15:21:10.007] Starting P2P networking 
+INFO [08-09|15:21:12.125] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:21:12.125] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:21:12.129] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:21:12.229] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|15:21:18.772] Got interrupt, shutting down... 
+INFO [08-09|15:21:18.772] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:21:18.772] Blockchain manager stopped 
+INFO [08-09|15:21:18.772] Stopping Ethereum protocol 
+INFO [08-09|15:21:18.772] Ethereum protocol stopped 
+INFO [08-09|15:21:18.772] Transaction pool stopped 
+INFO [08-09|15:21:18.773] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata
+INFO [08-09|15:22:31.547] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|15:22:31.550] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|15:22:31.550] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata cache=768 handles=512
+INFO [08-09|15:22:31.566] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|15:22:31.566] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/ethash count=3
+INFO [08-09|15:22:31.566] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                             count=2
+INFO [08-09|15:22:31.566] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|15:22:31.569] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:22:31.569] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:22:31.569] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:22:31.569] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|15:22:31.570] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|15:22:31.570] Starting P2P networking 
+INFO [08-09|15:22:33.691] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:22:33.691] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:22:33.696] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:22:33.802] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|15:23:01.442] Got interrupt, shutting down... 
+INFO [08-09|15:23:01.442] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:23:01.443] Blockchain manager stopped 
+INFO [08-09|15:23:01.443] Stopping Ethereum protocol 
+INFO [08-09|15:23:01.443] Ethereum protocol stopped 
+INFO [08-09|15:23:01.443] Transaction pool stopped 
+INFO [08-09|15:23:01.443] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata
+INFO [08-09|15:23:55.166] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|15:23:55.168] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|15:23:55.169] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata cache=768 handles=512
+INFO [08-09|15:23:55.185] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|15:23:55.185] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/ethash count=3
+INFO [08-09|15:23:55.185] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                             count=2
+INFO [08-09|15:23:55.185] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|15:23:55.188] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:23:55.188] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:23:55.188] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:23:55.189] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|15:23:55.189] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|15:23:55.190] Starting P2P networking 
+INFO [08-09|15:23:57.308] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:23:57.309] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:23:57.312] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:23:57.418] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|15:23:59.829] Got interrupt, shutting down... 
+INFO [08-09|15:23:59.829] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:23:59.829] Blockchain manager stopped 
+INFO [08-09|15:23:59.829] Stopping Ethereum protocol 
+INFO [08-09|15:23:59.829] Ethereum protocol stopped 
+INFO [08-09|15:23:59.830] Transaction pool stopped 
+INFO [08-09|15:23:59.830] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata
+INFO [08-09|15:24:37.773] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|15:24:37.775] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|15:24:37.775] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata cache=768 handles=512
+INFO [08-09|15:24:37.791] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|15:24:37.791] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/ethash count=3
+INFO [08-09|15:24:37.791] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                             count=2
+INFO [08-09|15:24:37.791] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|15:24:37.794] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:24:37.794] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:24:37.794] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:24:37.795] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|15:24:37.795] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|15:24:37.796] Starting P2P networking 
+INFO [08-09|15:24:39.912] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:24:39.913] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:24:39.918] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:24:40.026] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|15:25:08.822] Got interrupt, shutting down... 
+INFO [08-09|15:25:08.823] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:25:08.823] Blockchain manager stopped 
+INFO [08-09|15:25:08.823] Stopping Ethereum protocol 
+INFO [08-09|15:25:08.823] Ethereum protocol stopped 
+INFO [08-09|15:25:08.823] Transaction pool stopped 
+INFO [08-09|15:25:08.823] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata
+INFO [08-09|15:26:19.846] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|15:26:19.849] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|15:26:19.849] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata cache=768 handles=512
+INFO [08-09|15:26:19.866] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|15:26:19.866] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/ethash count=3
+INFO [08-09|15:26:19.866] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                             count=2
+INFO [08-09|15:26:19.867] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|15:26:19.869] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:26:19.869] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:26:19.869] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:26:19.870] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|15:26:19.870] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|15:26:19.871] Starting P2P networking 
+INFO [08-09|15:26:21.990] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:26:21.990] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:26:21.994] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:26:22.105] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|15:26:22.119] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:26:22.119] Blockchain manager stopped 
+INFO [08-09|15:26:22.119] Stopping Ethereum protocol 
+INFO [08-09|15:26:22.119] Ethereum protocol stopped 
+INFO [08-09|15:26:22.119] Transaction pool stopped 
+INFO [08-09|15:26:22.119] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata
+INFO [08-09|15:27:18.123] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|15:27:18.125] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|15:27:18.125] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata cache=768 handles=512
+INFO [08-09|15:27:18.139] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|15:27:18.139] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/ethash count=3
+INFO [08-09|15:27:18.139] Disk storage enabled for ethash DAGs     dir=/users/nperry/.ethash                                             count=2
+INFO [08-09|15:27:18.139] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|15:27:18.142] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:27:18.142] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:27:18.142] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:27:18.142] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|15:27:18.143] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|15:27:18.143] Starting P2P networking 
+INFO [08-09|15:27:20.262] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:27:20.262] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:27:20.265] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:27:20.363] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|15:27:20.379] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth.ipc
+INFO [08-09|15:27:20.379] Blockchain manager stopped 
+INFO [08-09|15:27:20.379] Stopping Ethereum protocol 
+INFO [08-09|15:27:20.379] Ethereum protocol stopped 
+INFO [08-09|15:27:20.379] Transaction pool stopped 
+INFO [08-09|15:27:20.380] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir.mp/geth/chaindata
+INFO [08-09|15:40:33.143] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [08-09|15:40:33.143] Starting peer-to-peer node               instance=Geth/v1.8.14-unstable-16eaf2b1/linux-amd64/go1.10.3
+INFO [08-09|15:40:33.144] Allocated cache and file handles         database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth/chaindata cache=768 handles=512
+INFO [08-09|15:40:33.220] Initialised chain configuration          config="{ChainID: 1994 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: <nil> Engine: unknown}"
+INFO [08-09|15:40:33.220] Disk storage enabled for ethash caches   dir=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth/ethash count=3
+INFO [08-09|15:40:33.220] Disk storage enabled for ethash DAGs     dir=/root/.ethash                                                  count=2
+INFO [08-09|15:40:33.220] Initialising Ethereum protocol           versions="[63 62]" network=1114
+INFO [08-09|15:40:33.223] Loaded most recent local header          number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:40:33.223] Loaded most recent local full block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:40:33.223] Loaded most recent local fast block      number=0 hash=a38003…8cebfa td=10000000
+INFO [08-09|15:40:33.223] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-09|15:40:33.223] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-09|15:40:33.224] Starting P2P networking 
+INFO [08-09|15:40:35.407] UDP listener up                          self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:40:35.407] RLPx listener up                         self=enode://db10847609b90cceee35363c45d0e4bbb62f5d65a52fa14ad05b1cbe03a1b48920afece8a5f91c7ecdea76f123d8b226d8afdda7eba8a41ebdf3910197695291@[::]:30303
+INFO [08-09|15:40:35.410] IPC endpoint opened                      url=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth.ipc
+INFO [08-09|15:40:35.515] Etherbase automatically configured       address=0x895b2B531F8114FC1867C2b53cA8d4e0d72F397e
+INFO [08-09|16:00:18.656] IPC endpoint closed                      endpoint=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth.ipc
+INFO [08-09|16:00:18.656] Blockchain manager stopped 
+INFO [08-09|16:00:18.656] Stopping Ethereum protocol 
+INFO [08-09|16:00:18.656] Ethereum protocol stopped 
+INFO [08-09|16:00:18.656] Transaction pool stopped 
+INFO [08-09|16:00:18.656] Database closed                          database=/users/nperry/CORDS/systems/my-eth-chain/myDataDir/geth/chaindata

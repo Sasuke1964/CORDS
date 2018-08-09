@@ -1,0 +1,8 @@
+#!/usr/bin/expect
+spawn /users/nperry/go-ethereum/build/bin/geth attach
+expect ">"
+send "eth.getBalance(eth.coinbase)\r"
+expect ">"
+set results $expect_out(buffer)
+send "exit\r"
+expect eof
