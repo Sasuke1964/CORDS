@@ -105,7 +105,7 @@ for trace_file in trace_files:
 	assert os.stat(trace_file).st_size > 0
 	with open(trace_file, "r") as f:
 		for line in f:
-			line = line.split(' ')
+			line = line.split('\t')
 			if line[0] in ['rename', 'unlink', 'link', 'symlink']:
 				pass
 			else:
